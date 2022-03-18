@@ -1,0 +1,58 @@
+{
+    "projects":[
+        {
+            "id":1,
+            "projectName":"Systems thinking solving",
+            "subjectName":"IST",
+            "image":"assets/images/IST.jpg",
+            "deadline":"12-5-2022",
+            "status":"Incomplete",
+            "color":"0xff33505a"
+        },
+        {
+            "id":2,
+            "projectName":"Cloud computing",
+            "subjectName":"OSCC",
+            "image":"assets/images/OSCC.jpg",
+            "deadline":"12-5-2022",
+            "status":"Incomplete",
+            "color":"0xff00ac51"
+        },
+        {
+            "id":3,
+            "projectName":"Develop a software",
+            "subjectName":"SE",
+            "image":"assets/images/SES.jpg",
+            "deadline":"12-5-2022",
+            "status":"Incomplete",
+            "color":"0xffe0bfae"
+        },
+        {
+            "id":4,
+            "projectName":"Develop a software",
+            "subjectName":"DBMS",
+            "image":"assets/images/DBMS.jpg",
+            "deadline":"12-5-2022",
+            "status":"Incomplete",
+            "color":"0xff544ee4"
+        },
+        {
+            "id":5,
+            "projectName":"Search industrial",
+            "subjectName":"GBP",
+            "image":"assets/images/gbp.jpg",
+            "deadline":"12-5-2022",
+            "status":"Incomplete",
+            "color":"0xffe3e4e9"
+        },
+        {
+            "id":6,
+            "projectName":"----------",
+            "subjectName":"LA",
+            "image":"assets/images/LA.jpg",
+            "deadline":"----------",
+            "status":"----------",
+            "color":"0xfff73984"
+        }
+    ]
+}

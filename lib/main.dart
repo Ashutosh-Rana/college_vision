@@ -1,5 +1,7 @@
 import 'package:college_vision/pages/home_page.dart';
+import 'package:college_vision/pages/project_page.dart';
 import 'package:college_vision/pages/signup_page.dart';
+import 'package:college_vision/utils/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:college_vision/pages/login_page.dart';
 //import 'package:college_vision/utils/routes.dart';
@@ -16,11 +18,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      //initialRoute: MyRoutes.loginRoute,
+      initialRoute: MyRoutes.projectRoute,
       routes: {
         "/":(context)=>const LoginPage(),
         "/home":(context) =>const HomePage(),
-        "/signup":((context) => const SignUpPage())
+        "/signup":((context) => const SignUpPage()),
+        "/project":((context) => const ProjectPage())
       },
     );
   }
