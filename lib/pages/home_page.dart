@@ -7,11 +7,9 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("CV")
-      ),
-      body: SizedBox(child: Title(color: Vx.blue400,
-      child: const Text("Home_Page"))),
+      appBar: AppBar(title: const Text("CV")),
+      body: SizedBox(
+          child: Title(color: Vx.blue400, child: const Text("Home_Page"))),
     );
   }
 }
