@@ -36,8 +36,11 @@ class IdPage extends StatelessWidget {
                 const Text("ASHUTOSH RANA",
                         style: TextStyle(color: Colors.white, fontSize: 18))
                     .pOnly(top: 30),
-                Icon(Icons.arrow_back, color: Colors.white, size: 50)
-                    .pOnly(bottom: 90, right: 25)
+                InkWell(
+                  onTap: () => Navigator.pop(context),
+                  child: Icon(Icons.arrow_back, color: Colors.white, size: 50)
+                      .pOnly(bottom: 90, right: 25),
+                )
               ],
             ),
           ),

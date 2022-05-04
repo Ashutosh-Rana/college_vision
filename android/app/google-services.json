@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "843621038877",
-    "project_id": "cvproject-22103",
-    "storage_bucket": "cvproject-22103.appspot.com"
+    "project_number": "441640458259",
+    "project_id": "cvis-fad9b",
+    "storage_bucket": "cvis-fad9b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:843621038877:android:f4404aef38ea9c0fa53ff4",
+        "mobilesdk_app_id": "1:441640458259:android:3c50d51b04169a0761c7e6",
         "android_client_info": {
-          "package_name": "com.example.college_vision"
+          "package_name": "com.example.cv"
         }
       },
       "oauth_client": [
         {
-          "client_id": "843621038877-dfj3vc87llsb5fqkiba4ninoj1qukup7.apps.googleusercontent.com",
+          "client_id": "441640458259-1l5jpki7jcvvgalioiqpm1khbohebl16.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCi1gDckiKIzn0MtF6Celq25Y9qRHniWI8"
+          "current_key": "AIzaSyCZT49R1lHNRgjg4vZOoWHNHnVJAUTlXSc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "843621038877-dfj3vc87llsb5fqkiba4ninoj1qukup7.apps.googleusercontent.com",
+              "client_id": "441640458259-1l5jpki7jcvvgalioiqpm1khbohebl16.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

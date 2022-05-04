@@ -1,5 +1,7 @@
+import 'package:college_vision/utils/routes.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 class BottomNavBar extends StatefulWidget {
   static const routeName = '/BottomNavBar';
@@ -18,26 +20,56 @@ class _BottomNavBarState extends State<BottomNavBar> {
       index: 0,
       height: 50.0,
       items: <Widget>[
-              Container(height:37,width: 37,
-              decoration: BoxDecoration(color:const Color(0XFFF1FAFF),
-              borderRadius: BorderRadius.circular(20)),
-              child:Image.asset("assets/images/home.png",
-              alignment: Alignment.center,)),
-              Container(height:37,width: 37,
-              decoration: BoxDecoration(color:const Color(0XFFF1FAFF),
-              borderRadius: BorderRadius.circular(20)),
-              child:Image.asset("assets/images/stopwatch.png",
-              alignment: Alignment.center,)),
-              Container(height:37,width: 37,
-              decoration: BoxDecoration(color:const Color(0XFFF1FAFF),
-              borderRadius: BorderRadius.circular(20)),
-              child:Image.asset("assets/images/bell.png",
-              alignment: Alignment.center,)),
-              Container(height:37,width: 37,
-              decoration: BoxDecoration(color:const Color(0XFFE7EBF8),
-              borderRadius: BorderRadius.circular(20)),
-              child:Image.asset("assets/images/setting.png",
-              alignment: Alignment.center,)),
+        InkWell(
+          onTap: () {
+            Navigator.pushNamed(context, MyRoutes.homeRoute);
+          },
+          child: Container(
+              height: 37,
+              width: 37,
+              decoration: BoxDecoration(
+                  color: const Color(0XFFF1FAFF),
+                  borderRadius: BorderRadius.circular(20)),
+              child: Image.asset(
+                "assets/images/home.png",
+                alignment: Alignment.center,
+              )),
+        ),
+        Container(
+            height: 37,
+            width: 37,
+            decoration: BoxDecoration(
+                color: const Color(0XFFF1FAFF),
+                borderRadius: BorderRadius.circular(20)),
+            child: Image.asset(
+              "assets/images/stopwatch.png",
+              alignment: Alignment.center,
+            )),
+        Container(
+            height: 37,
+            width: 37,
+            decoration: BoxDecoration(
+                color: const Color(0XFFF1FAFF),
+                borderRadius: BorderRadius.circular(20)),
+            child: Image.asset(
+              "assets/images/bell.png",
+              alignment: Alignment.center,
+            )),
+        InkWell(
+          onTap: () {
+            Navigator.pushNamed(context, MyRoutes.settingRoute);
+          },
+          child: Container(
+              height: 37,
+              width: 37,
+              decoration: BoxDecoration(
+                  color: const Color(0XFFE7EBF8),
+                  borderRadius: BorderRadius.circular(20)),
+              child: Image.asset(
+                "assets/images/setting.png",
+                alignment: Alignment.center,
+              )),
+        ),
       ],
       color: Color(0XFF2A3856),
       buttonBackgroundColor: Colors.white,

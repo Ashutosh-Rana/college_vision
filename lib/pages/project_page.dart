@@ -2,6 +2,8 @@
 import 'dart:convert';
 
 import 'package:college_vision/models/project.dart';
+import 'package:college_vision/utils/routes.dart';
+import 'package:college_vision/widgets/bottom_nav_bar.dart';
 import 'package:college_vision/widgets/project_item_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -49,7 +51,9 @@ class _ProjectPageState extends State<ProjectPage> {
                 padding: const EdgeInsets.all(12),
                 child: Align(
                     alignment: Alignment.bottomLeft,
-                    child: Image.asset("assets/images/PRO.png")),
+                    child: InkWell(
+                      onTap: () => Navigator.pushNamed(context, MyRoutes.homeRoute),
+                      child: Image.asset("assets/images/PRO.png"))),
               ),
               const WidthBox(15),
               Align(
@@ -124,7 +128,7 @@ class _ProjectPageState extends State<ProjectPage> {
             ),
           ],
         ),
-      ).pOnly(top: 16)
+      ).pOnly(top: 16),
     ]));
   }
 }
